@@ -4,9 +4,9 @@
   "author": "lopis",
   "description": "Storybook example using Vue and MDX",
   "scripts": {
-    "storybook": "start-storybook -s ./public -p 6161",
+    "storybook": "start-storybook -p 6161",
     "dev": "yarn storybook",
-    "build": "build-storybook --quiet -c .storybook -o dist -s ./public"
+    "build": "build-storybook --quiet -c .storybook -o docs"
   },
   "dependencies": {
     "@babel/core": "^7.10.5",
