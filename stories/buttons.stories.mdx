@@ -1,0 +1,22 @@
+import { Meta, Props, Preview, Story } from '@storybook/addon-docs/blocks';
+
+import { story, params } from '~storybook-util/story';
+import ButtonComponent from './button'
+import ButtonStory from './button.story'
+
+<Meta title="Components/Button"
+  component={ButtonComponent}
+/>
+
+# Buttons
+
+This is the *button component*.
+It can be grouped in a button group or
+used individually.
+
+<Preview>
+  <Story name='HorizontalGroup' inline
+    parameters={params(ButtonStory)}>
+    {story(ButtonStory)}
+  </Story>
+</Preview>

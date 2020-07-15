@@ -1,0 +1,71 @@
+Arguments: 
+  /home/joao/.nvm/versions/node/v10.15.3/bin/node /home/joao/code/.yarn/releases/yarn-1.18.0.js
+
+PATH: 
+  /home/joao/.yarn/bin:/home/joao/.config/yarn/global/node_modules/.bin:/home/joao/bin:/home/joao/.yarn/bin:/home/joao/.config/yarn/global/node_modules/.bin:/home/joao/bin:/home/joao/.nvm/versions/node/v10.15.3/bin:/usr/local/bin:/usr/local/sbin:/home/joao/.local/bin:/home/joao/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/joao/go:/home/joao/go/bin:/usr/local/go/bin:/home/joao/go:/home/joao/go/bin
+
+Yarn version: 
+  1.18.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/joao/code/vue-storybook-example/package.json: Unexpected token } in JSON at position 308
+      at JSON.parse (<anonymous>)
+      at /home/joao/code/.yarn/releases/yarn-1.18.0.js:1098:57
+      at Generator.next (<anonymous>)
+      at step (/home/joao/code/.yarn/releases/yarn-1.18.0.js:310:30)
+      at /home/joao/code/.yarn/releases/yarn-1.18.0.js:321:13
+
+npm manifest: 
+  {
+    "name": "vue-storybook-example",
+    "version": "1",
+    "author": "lopis",
+    "description": "Storybook example using Vue and MDX",
+    "scripts": {
+      "storybook": "start-storybook -s ./public -p 6161",
+      "dev": "yarn storybook",
+      "build": "build-storybook --quiet -c .storybook -o dist -s ./public",
+    },
+    "dependencies": {
+      "@storybook/addon-actions": "^6.0.0-alpha.29",
+      "@storybook/addon-docs": "^6.0.0-alpha.29",
+      "@storybook/addon-links": "^6.0.0-alpha.29",
+      "@storybook/addons": "6.0.0-alpha.29",
+      "@storybook/api": "^6.0.0-alpha.29",
+      "@storybook/components": "^6.0.0-alpha.29",
+      "@storybook/theming": "^6.0.0-alpha.29",
+      "@storybook/vue": "^6.0.0-alpha.29",
+      "lodash": "^4.17.15",
+      "react": "^16.13.1"
+    },
+    "devDependencies": {
+      "@storybook/addon-storysource": "^5.3.19",
+      "@vue/babel-preset-app": "^4.3.1",
+      "@vue/cli-plugin-babel": "^4.3.1",
+      "babel-loader": "^8.1.0",
+      "babel-preset-vue": "^2.0.2",
+      "copy-webpack-plugin": "^6.0.3",
+      "css-loader": "^3.4.2",
+      "markdown-loader": "^5.1.0",
+      "null-loader": "^3.0.0",
+      "react-is": "^16.13.1",
+      "replace-in-file": "^5.0.2",
+      "sass": "^1.26.3",
+      "sass-loader": "^8.0.2",
+      "storybook-dark-mode": "^0.4.0",
+      "storybook-design-token": "^0.7.2",
+      "vue-loader": "^15.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
